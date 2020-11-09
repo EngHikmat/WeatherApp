@@ -1,0 +1,63 @@
+.header{
+    text-align: center;
+    background-color: #4fadff;
+    color: white;
+    width: 40%;
+    
+    border-radius: 50px;
+    margin: auto;
+    background:linear-gradient(0deg, #4fadff, rgba(255, 0, 150, 0.3)), url(./bg.jpg);
+  background-size:cover;
+ 
+  
+    
+}
+
+.header i{
+    border-left: solid 1px rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid rgb(83, 162, 252);
+
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.weather{
+    width: 10%;
+    display: flex;
+    display: grid;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header{
+        width: 100%;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .display-2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .weather{
+        width: 30%;
+    }
+  }
+
+
+
+
+
+
